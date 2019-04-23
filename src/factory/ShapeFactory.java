@@ -1,20 +1,20 @@
 package factory;
 
 public class ShapeFactory {
-	public Shape getShape(String s) {
-		if(s == null) {
+	public Shape getShape(String ShapeType) {
+		if(ShapeType == null) {
 			return null;
 		}
 		
-		if(s.contentEquals("Circle")) {
+		if(ShapeType.contentEquals("Circle")) {
 			return new Circle();
 		}
 		
-		if(s.contentEquals("Square")) {
+		if(ShapeType.contentEquals("Square")) {
 			return new Square();
 		}
 		
-		if(s.contentEquals("Triangle")) {
+		if(ShapeType.contentEquals("Triangle")) {
 			return new Triangle();
 		}
 		
