@@ -11,6 +11,7 @@ public class ObserverDriver {
 		System.out.println("We will now update the value to be 15:");
 		s.setState(15);
 		
+		System.out.println();
 
 		System.out.println("Now we will update the value to be 47:");
 		s.setState(47);
